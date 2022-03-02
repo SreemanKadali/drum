@@ -53,6 +53,6 @@ function buttonAnimation(mp){
   document.querySelector("."+mp).classList.add("pressed");
   setTimeout (function(){
       document.querySelector("."+mp).classList.remove("pressed");
-  },25);
+  },100);
 
 }
